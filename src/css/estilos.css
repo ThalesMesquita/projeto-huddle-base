@@ -81,7 +81,7 @@ body {
     transition: 0.3s;
 }
 
-.social{
+.social {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;

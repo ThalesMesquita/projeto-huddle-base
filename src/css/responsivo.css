@@ -1,0 +1,68 @@
+@media (max-width: 800px) {
+    section {
+        background-image: url(/src/images/bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        color: white;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        width: auto;
+    }
+
+    .logo {
+        position: absolute;
+        top: 50px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 120px;
+        margin-top: 60px;
+    }
+
+    .image {
+        transform: scale(0.9);
+        margin-bottom: 20px;
+    }
+
+    .content {
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    .title {
+        font-size: 60px;
+        line-height: 80px;
+        width: auto;
+        margin: 0 auto 40px;
+    }
+
+    .text {
+        font-size: 35px;
+        line-height: 56px;
+        margin: 0 auto 40px;
+    }
+
+    .register-button a {
+        font-size: 32px;
+        padding: 20px 150px;
+    }
+
+    .social {
+        position: absolute;
+        left: 325px;
+    }
+
+    .fab {
+        font-size: 30px;
+        width: 56px;
+    }
+}
