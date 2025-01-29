@@ -1,68 +1,78 @@
-@media (max-width: 800px) {
+@media (max-width: 450px) {
     section {
         background-image: url(/src/images/bg-mobile.svg);
         background-color: hsl(257, 40%, 49%);
         background-repeat: no-repeat;
         background-size: contain;
-
         color: white;
-        display: flex;
-        align-items: center;
         height: 100vh;
-        width: auto;
-    }
-
-    .logo {
-        position: absolute;
-        top: 50px;
+        width: 100%;
     }
 
     main {
+        top: 60px;
+        margin-top: 20px;
+        max-width: 100%;
+        max-height: auto;
+        position: relative;
+        padding: 0 10px;
+    } 
+ 
+    .header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        position: absolute;
-        top: 120px;
-        margin-top: 60px;
-    }
+        margin: 0 10px;
+    } 
 
     .image {
-        transform: scale(0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: scale(0.8);
         margin-bottom: 20px;
+        padding: 10px 5px 5px 10px;
     }
 
-    .content {
+    .container {
         margin: 0;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        align-content: center;
     }
 
-    .title {
-        font-size: 60px;
-        line-height: 80px;
-        width: auto;
-        margin: 0 auto 40px;
+    .h1 {
+        font-size: 40px;
+        line-height: 50px;
+        width: 100%;
+        margin: 0 auto 20px;
     }
 
-    .text {
-        font-size: 35px;
-        line-height: 56px;
-        margin: 0 auto 40px;
+    .info {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 auto 20px;
     }
 
-    .register-button a {
-        font-size: 32px;
-        padding: 20px 150px;
+    .btn-button a {
+        font-size: 20px;
+        padding: 10px 50px;
     }
-
+ 
     .social {
-        position: absolute;
-        left: 325px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 0;
+        margin-top: 20px;
     }
 
     .fab {
-        font-size: 30px;
-        width: 56px;
+        font-size: 20px;
+        width: 40px;
     }
 }
